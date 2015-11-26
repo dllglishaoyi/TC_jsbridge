@@ -9,8 +9,8 @@
 	};
 
 	var TCJsBridge = window.TCJsBridge = (function(){
-		// 发送器
-		var senderFrame = document.createElement('iframe');
+	// 发送器
+	var senderFrame = document.createElement('iframe');
         senderFrame.id = '__TCJSBridgeIFrame_Sender';
         senderFrame.style.display = 'none';
         document.documentElement.appendChild(senderFrame);
